@@ -18,7 +18,7 @@ A rig containing a task used for outputting messages to console
 
     ```
     {
-       taskname: 'sass',
+       taskname: 'rig-sass__sass',
        sourcemap: true,
        minify: false,
        src: './main.scss',
