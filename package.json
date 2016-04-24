@@ -1,0 +1,35 @@
+{
+    "name": "rig-sass",
+    "version": "1.0.0",
+    "author": "Vlad Filip ( vlad.filip.dev@gmail.com )",
+    "description": "A rig containing sass utilities",
+    "keywords": [
+        "rig",
+        "rigs",
+        "tool",
+        "plugin",
+        "rigsplugin",
+        "rigsfriendly",
+        "sass"
+    ],
+    "license": "MIT",
+    "engines": {
+        "node": ">=5.8.0",
+        "npm": ">=3.7.3"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/vladfilipro/rig-sass.git"
+    },
+    "bugs": {
+        "url": "https://github.com/vladfilipro/rig-sass/issues"
+    },
+    "dependencies": {
+        "gulp": "~3.9.1",
+        "gulp-sass": "~2.3.1",
+        "gulp-sourcemaps": "~1.6.0",
+        "gulp-rename": "~1.2.2"
+    },
+    "devDependencies": {},
+    "main": "./index.js"
+}
