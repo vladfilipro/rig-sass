@@ -1,7 +1,7 @@
 # rig-sass
 [![Dependency Status](https://david-dm.org/vladfilipro/rig-sass.svg)](https://david-dm.org/vladfilipro/rig-sass)
 
-A rig containing a task used for outputting messages to console
+A rig containing sass utilities
 
 ## How to use
 1. Install rigs package: `npm install rigs`
