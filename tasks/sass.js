@@ -37,7 +37,7 @@ var fileExists = function ( file ) {
 // Trying to resolve node_module
 var resolveNodeImporter = function ( url, file, done ) {
     try {
-        var nodeModuleFile = require.resolve( url ).substring( 0, require.resolve( url ).indexOf( url ) + url.length ) + '/dist/styles/main.scss';
+        var nodeModuleFile = require.resolve( url ).substring( 0, require.resolve( url ).indexOf( url ) + url.length ) + '/index.scss';
         if ( fileExists( nodeModuleFile ) ) {
             done( {
                 file: nodeModuleFile
